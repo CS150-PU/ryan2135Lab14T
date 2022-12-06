@@ -48,6 +48,7 @@ int main () {
 	// TODO#1: Read in all points from the file
 	readPoints (inFile, sPoints, size);
 
+	// TODO#1.5: Complete the function displayPoint
 
 	// TODO#2: Calculate the point closest to the origin
 
@@ -72,7 +73,8 @@ Parameters:		sPoint - point to be displayed
 Returned:			None
 ***********************************************************************/
 void displayPoint (const Point &sPoint) {
-	cout << "(" << sPoint.mX << ", " << sPoint.mY << ")";
+
+	// TOOD#1.5: Write this function
 }
 
 /***********************************************************************
